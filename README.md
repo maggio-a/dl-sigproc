@@ -1,13 +1,15 @@
-# pconv-inpainter
+## [Report](report.pdf)
 
-1. Download dataset:
+## Training
+
+Download dataset:
 ```
 mkdir dataset
 wget https://www.dropbox.com/s/5i1ciqhqksmdtmj/Places365_val_large.tar -P dataset
 tar -xf dataset/Places365_val_large.tar -C dataset
 ```
 
-2. Train
+Run the scripts:
 ```
 python pconv_main.py
 ```
